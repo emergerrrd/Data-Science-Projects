@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-10-17T22:39:24.944544",
+    "startedAt": "2021-10-17T22:39:22.915544",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"3a525a24-fc2f-4f4b-ac8e-2e4be2f6ee5c\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\Emerson\\AppData\\Local\\Temp\\tmp-5676MhUnth5K5Fos.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/emergerrrd/Data_Science_Projects.git",
+        "commit": "aca1c467924857a5e57314e724b3618cc8b3479e"
+    },
+    "email": "emergerrrd@users.noreply.github.com",
+    "root": "C:/Users/Emerson/Documents/GitHub/Data_Science_Projects",
+    "host": "Emerson-Desktop",
+    "username": "Emerson",
+    "executable": "C:\\Users\\Emerson\\anaconda3\\envs\\udacity\\python.exe"
+}
