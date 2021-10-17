@@ -73,3 +73,154 @@ FileNotFoundError: [WinError 2] The system cannot find the file specified
 2021-10-18 06:42:59,647 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
 2021-10-18 06:43:14,962 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
 2021-10-18 06:43:14,962 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:43:30,325 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:43:30,326 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:43:45,648 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:43:45,649 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:44:01,288 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:44:01,289 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:44:16,613 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:44:16,614 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:44:31,948 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:44:31,949 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:44:47,295 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:44:47,295 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:45:02,015 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: resume
+2021-10-18 06:45:02,015 INFO    HandlerThread:9736 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-18 06:45:02,020 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: pause
+2021-10-18 06:45:02,032 INFO    HandlerThread:9736 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-18 06:45:02,144 DEBUG   SenderThread:9736 [sender.py:send():185] send: stats
+2021-10-18 06:45:02,620 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:45:02,621 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:45:03,931 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: resume
+2021-10-18 06:45:03,931 INFO    HandlerThread:9736 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-18 06:45:03,947 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: pause
+2021-10-18 06:45:03,947 INFO    HandlerThread:9736 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-18 06:45:04,072 DEBUG   SenderThread:9736 [sender.py:send():185] send: stats
+2021-10-18 06:45:05,152 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: resume
+2021-10-18 06:45:05,152 INFO    HandlerThread:9736 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-18 06:45:05,451 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: log_artifact
+2021-10-18 06:45:05,451 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: log_artifact
+2021-10-18 06:45:05,455 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: pause
+2021-10-18 06:45:05,455 INFO    HandlerThread:9736 [handler.py:handle_request_pause():567] stopping system metrics thread
+2021-10-18 06:45:07,973 INFO    Thread-22 :9736 [upload_job.py:push():95] Uploaded file C:\Users\Emerson\.cache\wandb\artifacts\obj\md5\6d\2b4eab8db367b29addee40acd8d322
+2021-10-18 06:45:09,226 INFO    SenderThread:9736 [sender.py:send_request_log_artifact():907] logged artifact my_artifact.txt - {'id': 'QXJ0aWZhY3Q6MzE1NDYxOTQ=', 'digest': 'b685b282edfa1ac048d2014398ce4258', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyNDI0MjQ=', 'latestArtifact': None}, 'version': 'latest'}
+2021-10-18 06:45:09,227 DEBUG   SenderThread:9736 [sender.py:send():185] send: stats
+2021-10-18 06:45:17,953 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:45:17,954 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:45:33,237 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-18 06:45:33,238 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: stop_status
+2021-10-18 06:45:46,337 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: resume
+2021-10-18 06:45:46,337 INFO    HandlerThread:9736 [handler.py:handle_request_resume():558] starting system metrics thread
+2021-10-18 06:45:47,242 DEBUG   SenderThread:9736 [sender.py:send():185] send: telemetry
+2021-10-18 06:45:47,242 DEBUG   SenderThread:9736 [sender.py:send():185] send: exit
+2021-10-18 06:45:47,243 INFO    SenderThread:9736 [sender.py:send_exit():294] handling exit code: 0
+2021-10-18 06:45:47,243 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:47,243 INFO    SenderThread:9736 [sender.py:send_exit():296] handling runtime: 1
+2021-10-18 06:45:47,244 INFO    SenderThread:9736 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-18 06:45:47,244 INFO    SenderThread:9736 [sender.py:send_exit():306] send defer
+2021-10-18 06:45:47,244 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:47,244 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,245 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-18 06:45:47,245 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,245 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-18 06:45:47,245 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 1
+2021-10-18 06:45:47,245 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,245 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-18 06:45:47,343 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,343 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-18 06:45:47,343 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 2
+2021-10-18 06:45:47,344 DEBUG   SenderThread:9736 [sender.py:send():185] send: stats
+2021-10-18 06:45:47,344 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,344 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-18 06:45:47,345 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,345 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-18 06:45:47,345 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 3
+2021-10-18 06:45:47,345 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,345 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-18 06:45:47,345 DEBUG   SenderThread:9736 [sender.py:send():185] send: summary
+2021-10-18 06:45:47,346 INFO    SenderThread:9736 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-18 06:45:47,347 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,347 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-18 06:45:47,347 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 4
+2021-10-18 06:45:47,348 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,348 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-18 06:45:47,348 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,348 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-18 06:45:47,363 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:47,685 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 5
+2021-10-18 06:45:47,685 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:47,686 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,686 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-18 06:45:47,686 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,686 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-18 06:45:47,686 INFO    SenderThread:9736 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-18 06:45:47,801 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:47,977 INFO    SenderThread:9736 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\wandb-summary.json
+2021-10-18 06:45:47,977 INFO    SenderThread:9736 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\config.yaml
+2021-10-18 06:45:47,977 INFO    SenderThread:9736 [dir_watcher.py:finish():313] scan: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files
+2021-10-18 06:45:47,978 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\conda-environment.yaml conda-environment.yaml
+2021-10-18 06:45:47,978 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\config.yaml config.yaml
+2021-10-18 06:45:47,978 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\output.log output.log
+2021-10-18 06:45:47,978 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\requirements.txt requirements.txt
+2021-10-18 06:45:47,979 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\wandb-metadata.json wandb-metadata.json
+2021-10-18 06:45:47,979 INFO    SenderThread:9736 [dir_watcher.py:finish():327] scan save: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\wandb-summary.json wandb-summary.json
+2021-10-18 06:45:47,983 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 6
+2021-10-18 06:45:47,986 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:47,989 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:47,991 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-18 06:45:47,992 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:47,993 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-18 06:45:47,993 INFO    SenderThread:9736 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-18 06:45:48,098 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,099 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,206 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,207 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,315 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,316 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,423 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,424 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,532 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,533 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,640 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,641 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,748 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,749 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,763 INFO    Thread-24 :9736 [upload_job.py:push():137] Uploaded file c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\config.yaml
+2021-10-18 06:45:48,803 INFO    Thread-26 :9736 [upload_job.py:push():137] Uploaded file c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\wandb-summary.json
+2021-10-18 06:45:48,834 INFO    Thread-25 :9736 [upload_job.py:push():137] Uploaded file c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\files\requirements.txt
+2021-10-18 06:45:48,857 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,858 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:48,963 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:48,964 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:49,040 INFO    Thread-11 :9736 [sender.py:transition_state():319] send defer: 7
+2021-10-18 06:45:49,041 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:49,041 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-18 06:45:49,041 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:49,041 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-18 06:45:49,070 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:49,509 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 8
+2021-10-18 06:45:49,509 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:49,510 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:49,510 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-18 06:45:49,510 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:49,510 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-18 06:45:49,510 INFO    SenderThread:9736 [sender.py:transition_state():319] send defer: 9
+2021-10-18 06:45:49,511 DEBUG   SenderThread:9736 [sender.py:send():185] send: final
+2021-10-18 06:45:49,512 DEBUG   SenderThread:9736 [sender.py:send():185] send: footer
+2021-10-18 06:45:49,512 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: defer
+2021-10-18 06:45:49,512 INFO    HandlerThread:9736 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-18 06:45:49,512 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: defer
+2021-10-18 06:45:49,512 INFO    SenderThread:9736 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-18 06:45:49,621 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-18 06:45:49,622 DEBUG   SenderThread:9736 [sender.py:send_request():199] send_request: poll_exit
+2021-10-18 06:45:49,622 INFO    SenderThread:9736 [file_pusher.py:join():182] waiting for file pusher
+2021-10-18 06:45:49,923 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-18 06:45:49,923 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-18 06:45:49,924 DEBUG   HandlerThread:9736 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-18 06:45:49,924 INFO    HandlerThread:9736 [handler.py:finish():683] shutting down handler
+2021-10-18 06:45:50,523 INFO    WriterThread:9736 [datastore.py:close():281] close: c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_063922-1ad9thol\run-1ad9thol.wandb
+2021-10-18 06:45:50,929 INFO    SenderThread:9736 [sender.py:finish():986] shutting down sender
+2021-10-18 06:45:50,929 INFO    SenderThread:9736 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-18 06:45:50,929 INFO    SenderThread:9736 [file_pusher.py:join():182] waiting for file pusher
+2021-10-18 06:45:50,929 INFO    MainThread:9736 [internal.py:handle_exit():76] Internal process exited

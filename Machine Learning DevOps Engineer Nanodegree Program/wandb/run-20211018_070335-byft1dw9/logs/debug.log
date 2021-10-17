@@ -1,0 +1,149 @@
+2021-10-18 07:03:35,654 INFO    MainThread:23292 [wandb_setup.py:_flush():69] setting env: {}
+2021-10-18 07:03:35,655 INFO    MainThread:23292 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-10-18 07:03:35,655 INFO    MainThread:23292 [wandb_init.py:_log_setup():357] Logging user logs to c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_070335-byft1dw9\logs\debug.log
+2021-10-18 07:03:35,655 INFO    MainThread:23292 [wandb_init.py:_log_setup():358] Logging internal logs to c:\Users\Emerson\Documents\GitHub\Data_Science_Projects\Machine Learning DevOps Engineer Nanodegree Program\wandb\run-20211018_070335-byft1dw9\logs\debug-internal.log
+2021-10-18 07:03:35,655 INFO    MainThread:23292 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A5F7A75D00>
+2021-10-18 07:03:35,656 INFO    MainThread:23292 [wandb_init.py:init():390] calling init triggers
+2021-10-18 07:03:35,656 INFO    MainThread:23292 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-10-18 07:03:35,656 INFO    MainThread:23292 [wandb_init.py:init():435] starting backend
+2021-10-18 07:03:35,656 INFO    MainThread:23292 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-10-18 07:03:35,660 INFO    MainThread:23292 [backend.py:ensure_launched():135] starting backend process...
+2021-10-18 07:03:35,743 INFO    MainThread:23292 [backend.py:ensure_launched():139] started backend process with pid: 25804
+2021-10-18 07:03:35,744 INFO    MainThread:23292 [wandb_init.py:init():440] backend started and connected
+2021-10-18 07:03:35,757 INFO    MainThread:23292 [wandb_run.py:_label_probe_notebook():833] probe notebook
+2021-10-18 07:03:35,757 INFO    MainThread:23292 [wandb_run.py:_label_probe_notebook():843] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-10-18 07:03:35,757 INFO    MainThread:23292 [wandb_init.py:init():499] updated telemetry
+2021-10-18 07:03:35,759 INFO    MainThread:23292 [wandb_init.py:init():522] communicating current version
+2021-10-18 07:03:37,229 INFO    MainThread:23292 [wandb_init.py:init():527] got version response 
+2021-10-18 07:03:37,229 INFO    MainThread:23292 [wandb_init.py:init():535] communicating run to backend with 30 second timeout
+2021-10-18 07:03:37,710 INFO    MainThread:23292 [wandb_init.py:init():562] starting run threads in backend
+2021-10-18 07:03:37,852 INFO    MainThread:23292 [wandb_run.py:_console_start():1651] atexit reg
+2021-10-18 07:03:37,853 INFO    MainThread:23292 [wandb_run.py:_redirect():1525] redirect: SettingsConsole.WRAP
+2021-10-18 07:03:37,853 INFO    MainThread:23292 [wandb_run.py:_redirect():1562] Wrapping output streams.
+2021-10-18 07:03:37,854 INFO    MainThread:23292 [wandb_run.py:_redirect():1586] Redirects installed.
+2021-10-18 07:03:37,854 INFO    MainThread:23292 [wandb_init.py:init():587] run started, returning control to user process
+2021-10-18 07:03:38,215 INFO    MainThread:23292 [wandb_run.py:finish():1311] finishing run emergerrrd/demo_artifact_1/byft1dw9
+2021-10-18 07:03:38,216 INFO    MainThread:23292 [jupyter.py:save_history():428] not saving jupyter history
+2021-10-18 07:03:38,216 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 07:03:38,216 INFO    MainThread:23292 [wandb_init.py:_jupyter_teardown():289] cleaning up jupyter logic
+2021-10-18 07:03:38,216 INFO    MainThread:23292 [wandb_run.py:_atexit_cleanup():1621] got exitcode: 0
+2021-10-18 07:03:38,216 INFO    MainThread:23292 [wandb_run.py:_restore():1593] restore
+2021-10-18 07:03:39,281 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 1139
+}
+
+2021-10-18 07:03:39,959 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 1139
+}
+
+2021-10-18 07:03:40,748 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 3781
+}
+
+2021-10-18 07:03:40,857 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:40,963 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,067 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1139
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,175 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,281 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,388 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,495 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,601 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,710 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:41,945 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+
+2021-10-18 07:03:42,349 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 3807
+  total_bytes: 3807
+}
+local_info {
+}
+
+2021-10-18 07:03:43,512 INFO    MainThread:23292 [wandb_run.py:_append_files():2009] logging synced files

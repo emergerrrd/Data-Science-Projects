@@ -25,3 +25,151 @@ config: {}
 2021-10-18 06:39:25,069 INFO    MainThread:23292 [wandb_init.py:init():587] run started, returning control to user process
 2021-10-18 06:39:25,069 INFO    MainThread:23292 [wandb_init.py:_pause_backend():270] pausing backend
 2021-10-18 06:39:25,069 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 06:45:02,013 INFO    MainThread:23292 [wandb_init.py:_resume_backend():279] resuming backend
+2021-10-18 06:45:02,017 INFO    MainThread:23292 [wandb_init.py:_pause_backend():270] pausing backend
+2021-10-18 06:45:02,017 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 06:45:03,930 INFO    MainThread:23292 [wandb_init.py:_resume_backend():279] resuming backend
+2021-10-18 06:45:03,940 INFO    MainThread:23292 [wandb_init.py:_pause_backend():270] pausing backend
+2021-10-18 06:45:03,940 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 06:45:05,150 INFO    MainThread:23292 [wandb_init.py:_resume_backend():279] resuming backend
+2021-10-18 06:45:05,454 INFO    MainThread:23292 [wandb_init.py:_pause_backend():270] pausing backend
+2021-10-18 06:45:05,454 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 06:45:46,335 INFO    MainThread:23292 [wandb_init.py:_resume_backend():279] resuming backend
+2021-10-18 06:45:46,336 INFO    MainThread:23292 [wandb_run.py:finish():1311] finishing run emergerrrd/demo_artifact_1/1ad9thol
+2021-10-18 06:45:46,456 INFO    MainThread:23292 [jupyter.py:save_history():428] not saving jupyter history
+2021-10-18 06:45:46,456 INFO    MainThread:23292 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2021-10-18 06:45:46,456 INFO    MainThread:23292 [wandb_init.py:_jupyter_teardown():289] cleaning up jupyter logic
+2021-10-18 06:45:46,456 INFO    MainThread:23292 [wandb_run.py:_atexit_cleanup():1621] got exitcode: 0
+2021-10-18 06:45:46,457 INFO    MainThread:23292 [wandb_run.py:_restore():1593] restore
+2021-10-18 06:45:47,245 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 1172
+}
+
+2021-10-18 06:45:47,686 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 1172
+}
+
+2021-10-18 06:45:47,988 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,100 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,207 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,316 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1172
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,424 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1467
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,533 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,641 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,749 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,858 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:48,964 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:49,510 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+
+2021-10-18 06:45:49,921 INFO    MainThread:23292 [wandb_run.py:_wait_for_finish():1746] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+  artifact_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 3840
+  total_bytes: 3840
+}
+local_info {
+}
+
+2021-10-18 06:45:51,077 INFO    MainThread:23292 [wandb_run.py:_append_files():2009] logging synced files

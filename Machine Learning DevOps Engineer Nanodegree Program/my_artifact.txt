@@ -1,1 +1,1 @@
-This is an example of an artifact
+This is an example of an artifact changed
